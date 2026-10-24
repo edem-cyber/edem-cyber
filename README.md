@@ -4,9 +4,10 @@
   <p>4+ Years Production Engineering • Distributed Systems • Multimodal AI • Open-Source Developer</p>
   
   <p>
+    <a href="https://edemkojo-com.vercel.app"><img src="https://img.shields.io/badge/Portfolio-edemkojo--com.vercel.app-6366f1?style=flat-square&logo=vercel" alt="Portfolio"></a>
     <a href="mailto:edem.agbakpe@outlook.com"><img src="https://img.shields.io/badge/Email-edem.agbakpe%40outlook.com-blue?style=flat-square&logo=microsoftoutlook" alt="Email"></a>
     <a href="https://pub.dev/packages/lucid_array_dart_generator"><img src="https://img.shields.io/badge/pub.dev-lucid__array__dart__generator-0175C2?style=flat-square&logo=dart" alt="pub.dev"></a>
-    <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-Edem%20Agbakpe-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
+    <a href="https://www.linkedin.com/in/edem-agbakpe/"><img src="https://img.shields.io/badge/LinkedIn-Edem%20Agbakpe-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
     <img src="https://img.shields.io/badge/Location-Accra%2C%20Ghana-brightgreen?style=flat-square" alt="Location">
   </p>
 </div>
@@ -22,19 +23,36 @@ Currently, I focus on building resilient software architectures and exploring **
 
 ### 🚀 Featured Engineering Projects
 
-#### 1. [Nuance — Multimodal Soundscape Engine](https://github.com/edem-cyber/nuance)
-* **Architecture**: A multimodal AI application that translates real-world photos and scenes into soundscapes using **Google Gemini Vision** and generative audio orchestration.
-* **Stack**: Flutter (Web & Mobile), Node.js/Express backend, Google Gemini API, Riverpod state management, iTunes Search API preview integrations.
-* **Key Achievements**: Implemented real-time ambient palette extraction, zero-latency audio streaming, and dynamic prompt engineering.
+#### 1. Spacia — Multi-Platform Workspace Marketplace (Production)
+[![App Store](https://img.shields.io/badge/App_Store-iOS_Download-000000?style=for-the-badge&logo=apple)](https://apps.apple.com/gh/app/spacia-work-stay-play/id6739746297)
+[![Google Play](https://img.shields.io/badge/Google_Play-Android_Download-34A853?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.lucid_array.spacia.individual&hl=en)
+[![Web Portal](https://img.shields.io/badge/Web_Platform-app.spacia.africa-4285F4?style=for-the-badge&logo=googlechrome)](https://app.spacia.africa/)
 
-#### 2. [`lucid_array_dart_generator` (pub.dev Open-Source Package)](https://pub.dev/packages/lucid_array_dart_generator)
-* **Architecture**: A high-performance CLI code generator that parses complex **OpenAPI 3.0 REST specifications** into immutable, type-safe Dart DTOs, serializers, and HTTP client SDKs.
-* **Stack**: Dart CLI, AST parsing, Code Generation, pub.dev package registry.
-* **Impact**: Eliminates hundreds of hours of manual boilerplate for engineering teams integrating large-scale RESTful APIs.
+* **Architecture**: Production-grade multi-tenant workspace marketplace connecting individual freelancers, teams, and enterprise organizations with flexible offices and meeting facilities across West Africa.
+* **Stack**: Flutter (iOS & Android native builds), React, TypeScript, Google Maps API, Paystack payment gateway, Firebase Cloud Messaging, Firebase Storage.
+* **Key Achievements**: 
+  - Led front-end and mobile architecture across iOS, Android, and Web with a unified design system.
+  - Engineered a granular multi-tier role-based access control (RBAC) engine supporting 7+ distinct user personas (individuals, workspace hosts, enterprise admins, corporate team members).
+  - Implemented end-to-end booking journeys including real-time geolocation radius search, calendar scheduling, automated Paystack settlement, and push notification pipelines.
 
-#### 3. The Trust Hospital Healthcare Management Platform
-* **Architecture**: Enterprise-grade multi-branch clinical and administrative platform engineered for **The Trust Hospital** network spanning 9 hospital facilities in West Africa.
-* **Stack**: React, Next.js, Node.js, PostgreSQL, Prisma ORM, Mobile apps (iOS/Android).
+#### 2. [Nuance — Multimodal AI Soundscape Engine](https://github.com/TuneDropLab/nuance)
+[![Live Web Demo](https://img.shields.io/badge/Live_Demo-nuance--music--web.vercel.app-6366f1?style=flat-square&logo=vercel)](https://nuance-music-web.vercel.app)
+[![API Microservice](https://img.shields.io/badge/Backend_API-nuance--backend.vercel.app-10b981?style=flat-square&logo=fastapi)](https://nuance-backend.vercel.app)
+
+* **Architecture**: Cross-platform multimodal generative music platform that translates human moods, abstract aesthetic prompts, and real-world photos into curated acoustic soundscapes using **Google Gemini 1.5 Flash Vision & LLM**.
+* **Stack**: Flutter Web & Mobile, Riverpod, Node.js/Express, Neon Serverless PostgreSQL, Prisma ORM, Apple iTunes Search API (zero-cost AAC 30s previews).
+* **Key Achievements**: Engineered multimodal **"Vibe Cam"** extracting ambient lighting, color temperature, and emotional valence into structured playlist schemas with dynamic glassmorphic player palettes.
+
+#### 3. [`lucid_array_dart_generator` (Published pub.dev Package)](https://pub.dev/packages/lucid_array_dart_generator)
+[![pub.dev package](https://img.shields.io/pub/v/lucid_array_dart_generator.svg?style=flat-square&color=blue)](https://pub.dev/packages/lucid_array_dart_generator)
+
+* **Architecture**: Open-source CLI code generator and AST parsing engine that consumes OpenAPI 3.0 / Swagger REST specifications to generate strongly-typed, null-safe Dart DTOs, JSON serializers, and namespaced API service clients.
+* **Stack**: Dart CLI, Abstract Syntax Tree (AST) parsing, Code Generation, pub.dev registry.
+* **Impact**: Eliminates manual client boilerplate and schema drift across cross-functional mobile and backend engineering teams.
+
+#### 4. The Trust Hospital Healthcare Management Platform
+* **Architecture**: Enterprise-grade clinical and administrative platform engineered for **The Trust Hospital** network spanning 9 hospital facilities in Ghana.
+* **Stack**: React, Next.js, Node.js, PostgreSQL, Prisma ORM, Flutter mobile companion.
 * **Key Achievements**: Solved clinical data fragmentation across branches by engineering resilient offline caching, audit logging, and high-throughput patient triage systems.
 
 ---
